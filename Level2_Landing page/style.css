@@ -1,5 +1,49 @@
-*main{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilory;
+    color: #fff;
+
+}
+
+#main{
     height: 100%;
     width: 100%;
     background-color: black;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-part2{
+  display: flex;
+  background: blue;
+  width: 45%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+#nav>i{
+    font-size: 20px;
+}
+
+#nav h5{
+    font-size: 15px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
 }
